@@ -1,0 +1,172 @@
+*{margin:0px;
+    padding: 0px;}
+
+/*styling af header*/
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content:space-evenly;
+
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+header .dropdownmenu {
+    height: 40px;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+
+/*her starter dropdown*/
+.dropbtn {
+  background-color:white;
+  color:black;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ddd;}
+
+/*Her starter main*/
+main {
+    margin-top: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+main h1 {
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+/*Styling af fuld billede kort*/
+.imageplacehoalder{
+    width: 100%;
+}
+
+main .imageplacehoalder section {
+    width: 100%;
+    height: 400px;
+}
+
+/*Styling af  kort med 3 billeder*/
+.cardcontainer1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardcontainer1 div {
+    width: 350px;
+    text-align: center;
+}
+
+.cardcontainer1 h1 { 
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-top: 5px;
+}
+.cardcontainer1{
+    padding-bottom: 70px;
+}
+
+.cardcontainer1 p {
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+main h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight:lighter;
+    padding-bottom: 50px;
+}
+
+main h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main .cardcontainer1 p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+main p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*her starter footer*/
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    border-top: 1px solid black;
+    padding-top: 50px;
+}
+
+.footer section{
+    width: 400px;
+    height: 200px;
+}
+.footer h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
